@@ -18,6 +18,9 @@ set noshowmode
 " wrap long lines
 set wrap
 
+" highlight the curent line
+set cursorline
+
 " tabs as spaces
 set expandtab
 set tabstop=4
@@ -33,7 +36,6 @@ call plug#begin()
 
     Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
     Plug 'tpope/vim-surround'
-    "Plug 'vim-airline/vim-airline'
     Plug 'itchyny/lightline.vim'
     Plug 'Townk/vim-autoclose'
 
