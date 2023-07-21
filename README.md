@@ -26,7 +26,7 @@ Once you do that, you'll want to `source` your config to make the alias availabl
 
 Now the `dotfiles` "command" should be available and I can check out the repo:
 
-    dotfiles repo
+    dotfiles checkout
 
 To keep the `dotfiles status` command's output clean, and to keep it running fast, I also add this setting to show only my tracked files:
 
