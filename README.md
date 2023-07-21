@@ -8,7 +8,7 @@ I'm using a bare git repository to store my dotfiles, [as first described by Str
 
 When adding the repo to a new machine, I clone to a directory named `.dotfiles` in my home directory:
 
-   git clone --bare https://github.com/jpitoniak/dotfiles $HOME/.dotfiles
+    git clone --bare https://github.com/jpitoniak/dotfiles $HOME/.dotfiles
 
 Then I set up an alias called "dotfiles" in my shell configuration file(s) (I used different shells on different systems because...reasons...) so that I can easily make commits against the repo with a memorable command:
 
