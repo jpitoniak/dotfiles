@@ -26,6 +26,9 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
+" backspace settings
+set backspace=indent,eol,start
+
 " return curser to last position when reopening a file
 if has("autocmd")
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
