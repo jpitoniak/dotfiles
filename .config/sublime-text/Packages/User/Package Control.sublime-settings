@@ -5,8 +5,19 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"Composer",
+		"Drupal",
+		"EditorConfig",
 		"Emmet",
+		"FuzzyFilePath",
+		"GoTools",
+		"Less",
 		"Package Control",
+		"Sass",
 		"Smarty",
+		"subDrush",
+		"SublimeCodeIntel",
+		"Terminus",
 	],
 }
