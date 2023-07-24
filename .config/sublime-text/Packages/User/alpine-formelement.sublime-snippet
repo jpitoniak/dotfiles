@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-element">
+    <label for="${1:id}">${2:label}</label>
+    <input type="${3:text}" id="${1:id}" name="${4:name}" aria-errormessage="${1:id}-error" x-model="${5:var}">
+    <div id="${1:id}-error" x-text="errors.{$1:id}"></div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>afe</tabTrigger>
+	<description>Insert a form element with label and accessibility attributes and AlpineJS bindings</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>text.html</scope>
+	<scope>source.php</scope> -->
+</snippet>

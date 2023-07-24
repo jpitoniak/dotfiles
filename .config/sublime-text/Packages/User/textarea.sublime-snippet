@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-element">
+    <label for="${1:id}">${2:label}</label>
+    <textarea id="${1:id}" name="${4:name}" aria-errormessage="${1:id}-error" x-model="${5:var}" $0></textarea>
+    <div id="${1:id}-error" class="error" x-text="errors.${1:id}"></div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ata</tabTrigger>
+	<description>Insert a textarea element with label and accessibility attributes and AlpineJS bindings</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
