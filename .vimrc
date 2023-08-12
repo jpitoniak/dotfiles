@@ -42,7 +42,7 @@ call plug#begin()
     Plug 'itchyny/lightline.vim'
     Plug 'Townk/vim-autoclose'
 
-    call plug#end()
+call plug#end()
 
 " NERDTree settings
 map <C-f> :NERDTreeToggle<CR> " open file browser with Ctrl-f
