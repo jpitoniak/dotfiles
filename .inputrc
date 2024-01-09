@@ -1,0 +1,12 @@
+# Readline configurations to:q make the shell better
+
+# tab to select full file names instead of partial matches
+# continue tabbing to loop through matching filename
+TAB: menu-complete
+set show-all-if-ambiguous on
+
+# allow tabbing to follow symlinks (make symlinks work like directories rather than files)
+set mark-symlinked-directories on
+
+# colorize filenames during tab completion
+set colored-stats on
